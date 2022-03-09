@@ -1,5 +1,5 @@
 
-//step 1 functiality
+//step 1 functionality
 const addProducts = (productDetails) => {
   // total amount of added products
   totalAmount = productDetails.unitPrice * productDetails.productAmount;
