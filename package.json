@@ -1,0 +1,15 @@
+{
+  "name": "shoppping-cart",
+  "version": "1.0.0",
+  "description": "shopping cart assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "Asiri",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1"
+  }
+}
