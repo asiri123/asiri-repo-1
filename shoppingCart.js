@@ -1,3 +1,5 @@
+
+//step 1 functiality
 const addProducts = (productDetails) => {
   // total amount of added products
   totalAmount = productDetails.unitPrice * productDetails.productAmount;
@@ -5,6 +7,7 @@ const addProducts = (productDetails) => {
   return totalAmount.toFixed(2);
 };
 
+//step 2 functionality
 const additionalProducts = (addMoreProducts) => {
   //calculate added product count
   alllProductCount =
@@ -16,6 +19,7 @@ const additionalProducts = (addMoreProducts) => {
   return totalAmount.toFixed(2);
 };
 
+//step 3 functionality
 const taxRate = (taxCalculation) => {
   //calculate total amount of the added products
   totalProductsamount =
